@@ -1,0 +1,9 @@
+**Script output**::
+
+  Compute unstructured hierarchical clustering...
+  Elapsed time: 0.08s
+  Number of points: 1500
+  Compute structured hierarchical clustering...
+  Elapsed time: 0.10s
+  Number of points: 1500
+

@@ -1,0 +1,11 @@
+**Script output**::
+
+  standard: 0.11 sec
+  ltsa: 0.22 sec
+  hessian: 0.35 sec
+  modified: 0.25 sec
+  ISO: 0.27 sec
+  MDS: 2.1 sec
+  Spectral Embedding: 0.095 sec
+  t-SNE: 4 sec
+

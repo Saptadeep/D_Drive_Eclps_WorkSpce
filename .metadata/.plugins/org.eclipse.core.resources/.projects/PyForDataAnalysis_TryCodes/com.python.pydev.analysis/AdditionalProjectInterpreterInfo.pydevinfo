@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\Eclipse_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\PyForDataAnalysis_TryCodes\com.python.pydev.analysis\v2_indexcache
+my_useful_session|1493559328331018000|D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\my_useful_session.py
+Ch03_NumPy|1492325439881447000|D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\Ch03_NumPy.py
+Others01_NumPy_Exercises|1492748831738474000|D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\Others01_NumPy_Exercises.py
+Ch02_1|1492299449975466000|D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\Ch02_1.py
+Ch02_2|1492439460357196000|D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\Ch02_2.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=Ch03_NumPy
+1=Others01_NumPy_Exercises
+3=Ch02_1
+4=Ch02_2
+-- END DICTIONARY
+-- START TREE 1
+15
+a1|1|a1!11@
+a2|1|a2!11@
+arr|2|array_ones!19@arr3d!19@
+cle|2|clean_tz!27@clean_tz!35@
+dat|1|data!19@
+fra|2|frame!27@frame!35@
+my_|2|my_util!18@my_arr!11@
+p|1|p!18@
+pat|2|path!27@path!35@
+rec|2|records!27@records!35@
+res|4|results2!35@results2!27@results1!27@results1!35@
+sli|1|sliced_array!19@
+tim|2|time_zones!27@time_zones!35@
+x|2|x!35@x!11@
+y|1|y!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

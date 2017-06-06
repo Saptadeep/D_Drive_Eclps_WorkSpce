@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ISLR/Pp67_ISLR_KNNbasic_example&apos; to &apos;Pp67_ISLR_KNNbasic_exercises.py&apos;" description="Rename resource &apos;Pp67_ISLR_KNNbasic_example&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Pp67_ISLR_KNNbasic_example" name="Pp67_ISLR_KNNbasic_exercises.py" stamp="1496397050890" updateReferences="true"/>
+</session>

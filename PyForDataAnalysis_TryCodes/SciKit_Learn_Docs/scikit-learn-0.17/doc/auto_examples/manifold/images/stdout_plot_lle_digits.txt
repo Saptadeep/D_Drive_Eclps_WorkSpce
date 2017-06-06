@@ -1,0 +1,21 @@
+**Script output**::
+
+  Computing random projection
+  Computing PCA projection
+  Computing Linear Discriminant Analysis projection
+  Computing Isomap embedding
+  Done.
+  Computing LLE embedding
+  Done. Reconstruction error: 1.63545e-06
+  Computing modified LLE embedding
+  Done. Reconstruction error: 0.3606
+  Computing Hessian LLE embedding
+  Done. Reconstruction error: 0.212805
+  Computing LTSA embedding
+  Done. Reconstruction error: 0.212801
+  Computing MDS embedding
+  Done. Stress: 143980420.932144
+  Computing Totally Random Trees embedding
+  Computing Spectral embedding
+  Computing t-SNE embedding
+

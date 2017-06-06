@@ -1,0 +1,4 @@
+**Script output**::
+
+  downloading Olivetti faces from http://cs.nyu.edu/~roweis/data/olivettifaces.mat to C:\Users\Mobimedia\scikit_learn_data
+

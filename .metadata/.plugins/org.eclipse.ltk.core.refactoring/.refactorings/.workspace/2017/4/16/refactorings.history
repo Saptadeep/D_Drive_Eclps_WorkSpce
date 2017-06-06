@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;PyForDataAnalysis_TryCodes/Ch03_NumPy.py&apos;" deleteContents="false" description="Delete resource &apos;PyForDataAnalysis_TryCodes/Ch03_NumPy.py&apos;" element1="/PyForDataAnalysis_TryCodes/Ch03_NumPy.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1492325379168"/>
+</session>
