@@ -3,4 +3,4 @@
 import pandas as pd
 
 p_df = pd.read_csv("D:/Eclipse_Workspace/ISLR/CSVs/COllege.csv")
-print(p_df)
+p_df

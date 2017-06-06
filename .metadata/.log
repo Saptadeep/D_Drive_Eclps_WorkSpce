@@ -10762,3 +10762,167 @@ java.lang.RuntimeException: The python client still hasn't connected back to the
 	at org.python.pydev.editor.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:165)
 	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:222)
 	at org.python.pydev.editor.PyEdit$2.run(PyEdit.java:560)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-06-07 05:09:05.665
+!MESSAGE Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+!STACK 0
+java.lang.RuntimeException: Unhandled: ExtSlice[dims=[Slice[lower=null, upper=null, step=null], Index[value=Name[id=k, ctx=Load, reserved=false]]]]
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.unhandled_node(MakeAstValidForPrettyPrintingVisitor.java:106)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitExtSlice(VisitorBase.java:351)
+	at org.python.pydev.parser.jython.ast.ExtSlice.accept(ExtSlice.java:80)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitSubscript(MakeAstValidForPrettyPrintingVisitor.java:944)
+	at org.python.pydev.parser.jython.ast.Subscript.accept(Subscript.java:87)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitListComp(MakeAstValidForPrettyPrintingVisitor.java:317)
+	at org.python.pydev.parser.jython.ast.ListComp.accept(ListComp.java:96)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleArguments(MakeAstValidForPrettyPrintingVisitor.java:1078)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitCall(MakeAstValidForPrettyPrintingVisitor.java:623)
+	at org.python.pydev.parser.jython.ast.Call.accept(Call.java:123)
+	at org.python.pydev.parser.jython.ast.Expr.traverse(Expr.java:77)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.handleSimpleNode(MakeAstValidForPrettyPrintingVisitor.java:898)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitExpr(MakeAstValidForPrettyPrintingVisitor.java:1069)
+	at org.python.pydev.parser.jython.ast.Expr.accept(Expr.java:71)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitFunctionDef(MakeAstValidForPrettyPrintingVisitor.java:873)
+	at org.python.pydev.parser.jython.ast.FunctionDef.accept(FunctionDef.java:131)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.visitClassDef(MakeAstValidForPrettyPrintingVisitor.java:733)
+	at org.python.pydev.parser.jython.ast.ClassDef.accept(ClassDef.java:157)
+	at org.python.pydev.parser.prettyprinterv2.MakeAstValidForPrettyPrintingVisitor.makeValid(MakeAstValidForPrettyPrintingVisitor.java:172)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:132)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:58)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:167)
+
+!ENTRY org.python.pydev.shared_core 4 4 2017-06-07 05:09:33.195
+!MESSAGE ERROR reading shell.
+ProcessInfo:
+
+ - Executed: D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\python.exe -u D:\EclipseNeon_Bundle\eclipse\plugins\org.python.pydev_5.7.0.201704111357\pysrc\pycompletionserver.py 54397
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Mobimedia\AppData\Roaming
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+CHOCOLATEYLASTPATHUPDATE=Sun Jan  8 08:28:58 2017
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=ADMIN
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\Mobimedia
+LOCALAPPDATA=C:\Users\Mobimedia\AppData\Local
+LOGONSERVER=\\ADMIN
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Users/Mobimedia/.AndroidStudio2.2/system/restart/jre/bin/server;C:/Users/Mobimedia/.AndroidStudio2.2/system/restart/jre/bin;C:/Users/Mobimedia/.AndroidStudio2.2/system/restart/jre/lib/amd64;C:\Users\Mobimedia\.AndroidStudio2.2\system\restart\jre\bin;D:\Python3_Installation\Scripts\;D:\Python3_Installation\;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\Git\cmd;D:\Scala_Installation\bin;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Google\google_appengine\;C:\Users\Mobimedia\AppData\Local\Yarn\.bin;C:\Users\Mobimedia\AppData\Roaming\npm;C:\Users\Mobimedia\AppData\Local\atom\bin;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\Scripts;C:\Users\Mobimedia\.AndroidStudio2.2\system\restart\jre\bin;;D:\EclipseNeon_Bundle\eclipse;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=D:\EclipseNeon_Bundle\eclipse\plugins\org.python.pydev_5.7.0.201704111357\pysrc\pydev_sitecustomize;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\Lib\site-packages;D:\Eclipse_Workspace;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\DLLs;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\lib;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\lib\site-packages\win32;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\lib\site-packages\win32\lib;D:\Downloads\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\lib\site-packages\Pythonwin;D:\Eclipse_Workspace\PyForDataAnalysis_TryCodes\SciKit_Learn_Docs\scikit-learn-0.17\sklearn
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\MOBIME~1\AppData\Local\Temp
+TMP=C:\Users\MOBIME~1\AppData\Local\Temp
+USERDOMAIN=admin
+USERDOMAIN_ROAMINGPROFILE=admin
+USERNAME=Mobimedia
+USERPROFILE=C:\Users\Mobimedia
+VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140INSTALL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+WINDIR=C:\Windows
+
+ - Working Dir:
+D:\EclipseNeon_Bundle\eclipse\plugins\org.python.pydev_5.7.0.201704111357\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:478)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.write(AbstractShell.java:544)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:691)
+	at org.python.pydev.editor.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.createInnerFromServer(CompiledModule.java:342)
+	at org.python.pydev.editor.codecompletion.revisited.modules.CompiledModule.getGlobalTokens(CompiledModule.java:542)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:856)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:864)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.getClassToks(SourceModule.java:619)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.getGlobalTokens(SourceModule.java:552)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:856)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findTokensOnImportedMods(AbstractASTManager.java:2009)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:820)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.getClassToks(SourceModule.java:619)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.getGlobalTokens(SourceModule.java:552)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:856)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findTokensOnImportedMods(AbstractASTManager.java:2009)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:820)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:631)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.findTokensOnImportedMods(AbstractASTManager.java:2009)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:820)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AssignAnalysis.getNonFunctionDefCompletionsFromAssign(AssignAnalysis.java:337)
+	at org.python.pydev.editor.codecompletion.revisited.AssignAnalysis.getAssignCompletions(AssignAnalysis.java:113)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getAssignCompletions(AbstractASTManager.java:1625)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.internalGenerateGetCompletionsForModule(AbstractASTManager.java:919)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:681)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:650)
+	at org.python.pydev.editor.codecompletion.revisited.AbstractASTManager.getCompletionsForModule(AbstractASTManager.java:641)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findGlobalTokDef(SourceModule.java:1099)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinitionsFromModAndTok(SourceModule.java:1048)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1030)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:696)
+	at org.python.pydev.editor.codecompletion.revisited.modules.SourceModule.findDefinition(SourceModule.java:1)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:185)
+	at org.python.pydev.editor.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:84)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:100)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:58)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:167)
