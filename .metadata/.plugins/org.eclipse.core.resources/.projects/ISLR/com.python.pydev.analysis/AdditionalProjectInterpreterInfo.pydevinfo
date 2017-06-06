@@ -1,29 +1,24 @@
 -- VERSION_4
 -- START DISKCACHE_2
 D:\Eclipse_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\ISLR\com.python.pydev.analysis\v2_indexcache
-Pp67_ISLR_KNNbasic|1496620069164158000|D:\Eclipse_Workspace\ISLR\Pp67_ISLR_KNNbasic.py
+Pp67_ISLR_KNNbasic|1496653789829057000|D:\Eclipse_Workspace\ISLR\Pp67_ISLR_KNNbasic.py
 _utilities|1496486880284072000|D:\Eclipse_Workspace\ISLR\_utilities.py
 -- END DISKCACHE
 -- START DICTIONARY
 2
-1=Pp67_ISLR_KNNbasic
-2=_utilities
+2=Pp67_ISLR_KNNbasic
+1=_utilities
 -- END DICTIONARY
 -- START TREE 1
-13
-X|1|X!11@
-_c|1|_c!18@
-_e|1|_e!18@
-_p|1|_p!18@
-c|1|c!18@
-df|1|df!11@
-e|1|e!18@
-lon|2|lon_lat_list!11@lon_lat_tuple!11@
-nei|1|neigh!11@
-p|1|p!18@
-p_d|1|p_df!11@
-str|1|str_replaced_int!11@
-y|1|y!11@
+8
+_c|1|_c!10@
+_e|1|_e!10@
+_p|1|_p!10@
+c|1|c!10@
+df|1|df!19@
+e|1|e!10@
+nei|1|neigh!19@
+p|1|p!10@
 -- END TREE
 -- START TREE 2
 0
