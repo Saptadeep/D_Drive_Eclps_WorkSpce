@@ -1,16 +1,18 @@
 -- VERSION_4
 -- START DISKCACHE_2
 D:\Eclipse_Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\ISLR\com.python.pydev.analysis\v2_indexcache
+Pp68_ISLR_CollegeDataExplore|1496795256707644000|D:\Eclipse_Workspace\ISLR\Pp68_ISLR_CollegeDataExplore.py
 Pp67_ISLR_KNNbasic|1496653789829057000|D:\Eclipse_Workspace\ISLR\Pp67_ISLR_KNNbasic.py
 _utilities|1496486880284072000|D:\Eclipse_Workspace\ISLR\_utilities.py
 -- END DISKCACHE
 -- START DICTIONARY
-2
+3
+3=Pp68_ISLR_CollegeDataExplore
 2=Pp67_ISLR_KNNbasic
 1=_utilities
 -- END DICTIONARY
 -- START TREE 1
-8
+9
 _c|1|_c!10@
 _e|1|_e!10@
 _p|1|_p!10@
@@ -19,6 +21,7 @@ df|1|df!19@
 e|1|e!10@
 nei|1|neigh!19@
 p|1|p!10@
+p_d|1|p_df!27@
 -- END TREE
 -- START TREE 2
 0

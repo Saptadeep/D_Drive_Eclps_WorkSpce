@@ -1,0 +1,14 @@
+#Pp68_ISLR_CollegeDataExplore
+
+import pandas as pd
+import matplotlib as mplt
+import matplotlib.pyplot as plt
+
+from pandas.tools.plotting import scatter_matrix
+
+p_df = pd.read_csv("D:/Eclipse_Workspace/ISLR/CSVs/COllege.csv")
+ten_columns_names = p_df.columns[:10]
+
+scatter_matrix(p_df.iLoc[:,10], alpha=0.2, figsize=(6, 6), diagonal='kde')
+
+plt.show()

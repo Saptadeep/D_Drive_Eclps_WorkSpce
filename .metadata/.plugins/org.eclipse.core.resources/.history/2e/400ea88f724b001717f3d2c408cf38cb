@@ -1,0 +1,12 @@
+#Pp68_ISLR_CollegeDataExplore
+
+import pandas as pd
+import matplotlib as mplt
+import matplotlib.pyplot as plt
+
+p_df = pd.read_csv("D:/Eclipse_Workspace/ISLR/CSVs/COllege.csv")
+print(p_df)
+
+
+
+mplt.pylab.show()

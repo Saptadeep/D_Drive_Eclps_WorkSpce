@@ -4,8 +4,10 @@ import pandas as pd
 import matplotlib as mplt
 import matplotlib.pyplot as plt
 
+from pandas.tools.plotting import scatter_matrix
+
 p_df = pd.read_csv("D:/Eclipse_Workspace/ISLR/CSVs/COllege.csv")
-print(p_df)
 
+scatter_matrix(p_df.iloc[:,:10], alpha=0.2, figsize=(6, 6), diagonal='kde')
 
-mplt.pylab.show()
+plt.show()
