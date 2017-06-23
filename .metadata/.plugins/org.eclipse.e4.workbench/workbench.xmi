@@ -288,7 +288,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_-pVKUEsPEeeEiaMI0qJXhQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Pp68_ISLR_CollegeDataExplore" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;Pp68_ISLR_CollegeDataExplore.py&quot; partName=&quot;Pp68_ISLR_CollegeDataExplore&quot; title=&quot;Pp68_ISLR_CollegeDataExplore&quot; tooltip=&quot;ISLR/Pp68_ISLR_CollegeDataExplore.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ISLR/Pp68_ISLR_CollegeDataExplore.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;164&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;Pp68_ISLR_CollegeDataExplore.py&quot; partName=&quot;Pp68_ISLR_CollegeDataExplore&quot; title=&quot;Pp68_ISLR_CollegeDataExplore&quot; tooltip=&quot;ISLR/Pp68_ISLR_CollegeDataExplore.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ISLR/Pp68_ISLR_CollegeDataExplore.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;19&quot; selectionOffset=&quot;33&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -562,7 +562,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LpwuTyGkEee6CoDuQqQczw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_W4SAkEvfEeebt_zTaVukAg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LpzK3SGkEee6CoDuQqQczw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NGe_gFA2EeeQG-6sfYRlFA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_LpzK3SGkEee6CoDuQqQczw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LpwuXCGkEee6CoDuQqQczw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -592,7 +592,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LpwuliGkEee6CoDuQqQczw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_W4WSAEvfEeebt_zTaVukAg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_LpymOCGkEee6CoDuQqQczw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NGip4FA2EeeQG-6sfYRlFA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_LpymOCGkEee6CoDuQqQczw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_LpwuoSGkEee6CoDuQqQczw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
